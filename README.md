@@ -14,8 +14,7 @@ Sinta-se à vontade para contribuir e aprimorar este projeto! 😊
 
 ## :camera_flash: Screenshots
 <!-- You can add more screenshots here if you like -->
-<img src="https://github.com/user-attachments/assets/3dab43ee-c1ee-4a91-9df1-70f5b38ffb92" width=200/> <img src="https://github.com/user-attachments/assets/f8cb6bef-21fb-4fcc-ac54-1cb3650020f0" width=200/>
-
+<img src="https://github.com/user-attachments/assets/3dab43ee-c1ee-4a91-9df1-70f5b38ffb92" width=200/> <img src="https://github.com/user-attachments/assets/9cb71d4c-dda8-414d-aa80-5510772c88ac" width=200/>
 
 ## Tecnologias
 - Activity
