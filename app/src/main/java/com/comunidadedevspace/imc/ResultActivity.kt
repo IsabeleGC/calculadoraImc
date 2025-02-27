@@ -39,6 +39,20 @@ class ResultActivity : AppCompatActivity() {
 
         tvClassificação.text = classificacao
 
+        tvClassificação.text=classificacao
+        if (tvClassificação.text == "MAGREZA"){
+            tvClassificação.setTextColor(ContextCompat.getColor(baseContext, R.color.MAGREZA))
+        }else if (tvClassificação.text == "NORMAL"){
+            tvClassificação.setTextColor(ContextCompat.getColor(baseContext,R.color.NORMAL))
+        }else if (tvClassificação.text == "SOBREPESO"){
+            tvClassificação.setTextColor(ContextCompat.getColor(baseContext,R.color.SOBREPESO))
+        }else if (tvClassificação.text == "OBESIDADE"){
+            tvClassificação.setTextColor(ContextCompat.getColor(baseContext,R.color.OBESIDADE))
+        }else if(tvClassificação.text == "OBESIDADE GRAVE"){
+            tvClassificação.setTextColor(ContextCompat.getColor(baseContext,R.color.OBESIDADE_GRAVE))
+        }
+
+
 
     }
 
