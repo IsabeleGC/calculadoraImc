@@ -21,13 +21,11 @@ class MainActivity : AppCompatActivity() {
 
 
             val pesoStr: String = edtPeso.text.toString()
-            val alturaStr:String = edtAltura.text.toString()
+            val alturaStr: String = edtAltura.text.toString()
 
-            if(pesoStr == "" || alturaStr == "" ) {
+            if (pesoStr == "" || alturaStr == "") {
                 Snackbar.make(
-                    edtPeso,
-                    "Preencha todos os campos",
-                    Snackbar.LENGTH_LONG
+                    edtPeso, "Preencha todos os campos", Snackbar.LENGTH_LONG
                 ).show()
 
             } else {
@@ -38,15 +36,9 @@ class MainActivity : AppCompatActivity() {
                 val alturaQ2 = altura * altura
                 val resultado = peso / alturaQ2
 
-                // Navegar para próxima tela
-                // Criar o layout da próxima tela
-                // Passar dados ( resultado) para próxima tela
-
-
-                // Intent - Classe do proprio android
 
                 val intent = Intent(this, ResultActivity::class.java)
-             intent.putExtra(KEY_RESULT_IMC,resultado)
+                intent.putExtra(KEY_RESULT_IMC, resultado)
                 startActivity(intent)
 
                 println("Isabele ação do botão" + resultado)
@@ -55,4 +47,4 @@ class MainActivity : AppCompatActivity() {
 
     }
 
-  }
+}
