@@ -73,6 +73,7 @@
       android:layout_height="wrap_content"
       android:textStyle="bold"
       android:textSize="24dp"
-      tools:text="NORMAL"/>
+      tools:text="NORMAL" />
+
 
 </LinearLayout>
