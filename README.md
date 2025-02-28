@@ -9,6 +9,7 @@ Este é um aplicativo Android nativo desenvolvido em **Kotlin**, projetado para 
 ✔️ Interface intuitiva
 ✔️ Exibição do resultado com interpretação do IMC  
 
+
 Sinta-se à vontade para contribuir e aprimorar este projeto! 😊  
 
 
