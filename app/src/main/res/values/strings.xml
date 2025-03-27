@@ -1,5 +1,8 @@
 <resources>
-    <string name="app_name">calculadoraimc</string>
-
-
+    <string name="app_name">Calculadora IMC</string>
+    <string name="imc_calculator_title">Calculador IMC</string>
+    <string name="confirm_result_classification">Confirme abaixo seu resultado e classificação</string>
+    <string name="classification_label">A classificação do seu imc é:</string>
+    <string name="normal">NORMAL</string>
+    <string name="weight_icon">Ícone de peso</string>
 </resources>
